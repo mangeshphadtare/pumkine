@@ -4,7 +4,7 @@ package com.mangesh.pumkine.authentication;
 
 import junit.framework.Assert.*;
 
-import org.junit.Assert;
+gimport org.junit.Assert;
 import org.junit.Test;
 
 import com.mangesh.pumkine.testdoubles.*;
@@ -12,8 +12,11 @@ import com.mangesh.pumkine.Auth.UserAuthentication;
 import com.mangesh.pumkine.editor.UserDatabase;
 import com.mangesh.pumkine.entities.UserRechargeInfo;
 import com.mangesh.pumkine.gateway.UserDataCollection;
+
+
 public class UserAuthenticationTest {
 
+	@Test
 	void itshouldSearchUserByNumber(){
 		
 		//given
